@@ -7,7 +7,13 @@ return <div>Hello from App.js by <strong>{props.name}</strong> for {props.course
 and class number {props.cnumber} .  <br/>
 
 We are now executing and exression number+3: Result is {props.number + 3}
+<br/>
+<h2>This is some heading</h2>
+<ui>
+   <li>This is first list item</li>  
+   <li>This is a second list item</li>  
 
+</ui>
 </div>
 }
 /*

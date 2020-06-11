@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
-  <div><App name="faisal" course="4IRU boot camp" number={22}/></div>,
+  <div><App name="Syed Faisal ur Rahman" course="4IRU boot camp" cnumber={3} number={4}/></div>,
   document.getElementById('root')
 );
 

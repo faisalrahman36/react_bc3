@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
 
+
 function App(props) {
-return <div>Hello from App.js by Syed Faisal ur Rahman {props.name} for {props.course}
-We can pass a number like {props.number}</div>
+return <div>Hello from App.js by <strong>{props.name}</strong> for {props.course}
+and class number {props.cnumber} .  <br/>
+
+We are now executing and exression number+3: Result is {props.number + 3}
+
+</div>
 }
 /*
 WE CAN ALSO DO THIS by using destructuring 
